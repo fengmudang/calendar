@@ -1,0 +1,67 @@
+ #oContainer { 
+                  width: 193px; 
+                  padding: 3px; 
+                  background-color: menu; 
+                  border-left: buttonhighlight 1px solid; 
+                  border-top: buttonhighlight 1px solid; 
+                  border-right: buttonshadow 1px solid; 
+                  border-bottom: buttonshadow 2px solid; 
+    }
+    .DateTable { 
+                  font: 10pt; 
+                  word-break: break-all; 
+    }
+    .WeekTd, .BlankTd { 
+                  font: 10pt; 
+                  border: 1px solid menu; 
+    }
+    .Today { 
+                  font: 10pt; 
+                  color: red; 
+                  cursor: hand; 
+                  position: relative; 
+                  left: 1px; 
+                  top: 1px; 
+                  border-left: 1px solid dimgray; 
+                  border-top: 1px solid dimgray; 
+                  border-right: 1px solid white; 
+                  border-bottom: 1px solid white; 
+    }
+    .MonthTd { 
+                  font: 10pt; 
+                  font-family: webdings; 
+                  cursor: hand; 
+                  border: 1px solid menu; 
+                  zmm: expression(onmouseenter = function() {
+                                  style.color = 'red'; 
+                       }, 
+                       onmouseout = function() { 
+                                  style.color = ''; 
+                       }); 
+    }
+    .SelectTd { 
+                  border: 1px solid menu; 
+    }
+    .over { 
+                  position: relative; 
+                  cursor: hand; 
+                  border-right: 1px solid buttonshadow; 
+                  border-bottom: 1px solid buttonshadow; 
+                  border-left: 1px solid buttonhighlight; 
+                  border-top: 1px solid buttonhighlight; 
+    }
+    .out { 
+                  border-left: 1px solid buttonface; 
+                  border-top: 1px solid buttonface; 
+                  border-right: 1px solid buttonface; 
+                  border-bottom: 1px solid buttonface; 
+    }
+    .down { 
+                  position: relative; 
+                  left: 1px; 
+                  top: 1px; 
+                  border-left: 1px solid dimgray; 
+                  border-top: 1px solid dimgray; 
+                  border-right: 1px solid white; 
+                  border-bottom: 1px solid white; 
+    }

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "calendar",  
+  "version": "1.0",  
+  "description": "check date on your chrome.",  
+  "browser_action": {  
+    "default_icon": "images/icon.png" ,
+    "default_title": "calendar",
+    "default_popup": "popup.html"
+	},
+  "options_page": "options.html"
+}
